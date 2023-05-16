@@ -1,0 +1,43 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+.w3-row-padding img {
+  margin-bottom: 12px;
+}
+.bgimg {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("images/IMG-20220727-WA0000 (2).jpg");
+  min-height: 100%;
+}
+.cover-bg {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.about {
+  font-size: 20px;
+  line-height: 45px;
+}
+a {
+  text-decoration: none;
+}
+.links h3 {
+  margin: 43px;
+  font-weight: 800;
+}
+.links h3:hover {
+  color: black;
+}
